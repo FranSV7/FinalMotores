@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraPlayer : MonoBehaviour
+public class cameraPlayerr : MonoBehaviour
 {
     public float mouseSensitivity = 2.0f; // Sensibilidad del ratón para mirar alrededor
 
@@ -13,7 +13,7 @@ public class CameraPlayer : MonoBehaviour
     {
         // Ocultar y bloquear el cursor para una experiencia de juego más inmersiva
         Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+
     }
 
     void Update()
